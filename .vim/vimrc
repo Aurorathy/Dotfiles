@@ -1,0 +1,19 @@
+" Basic vim settings
+
+:syntax on
+:set hlsearch
+:set termguicolors
+:set relativenumber
+:set tabstop=2 shiftwidth=2 backspace=2
+:set ruler
+:set t_Co=256
+:set mouse="a"
+:set cursorline 
+:set encoding=UTF-8
+:set belloff=all
+:set statusline=2
+:set viminfo=""
+:let g:netrw_dirhistmax=0
+
+:source $HOME/.vim/plugins.vim
+:source $HOME/.vim/settings.vim
