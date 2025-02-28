@@ -4,6 +4,7 @@
 :set hlsearch
 :set termguicolors
 :set relativenumber
+:set expandtab
 :set tabstop=2 shiftwidth=2 backspace=2
 :set ruler
 :set t_Co=256

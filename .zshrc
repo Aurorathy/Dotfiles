@@ -10,13 +10,13 @@ eval $(/opt/homebrew/bin/brew shellenv)
 # Functions
 
 function ranger() {
-	local tempfile="$(mktemp)"
-	command ranger --cmd="map Q chain shell echo %d > $tempfile; quitall"
-	if [[ -f "$tempfile" ]]; then
-		cd "$(cat "$tempfile")" || return
-	fi
+  local tempfile="$(mktemp)"
+  command ranger --cmd="map Q chain shell echo %d > $tempfile; quitall"
+  if [[ -f "$tempfile" ]]; then
+    cd "$(cat "$tempfile")" || return
+  fi
 
-	rm -f "$tempfile"
+  rm -f "$tempfile"
 }
 
 # Completions
