@@ -48,6 +48,14 @@ export VISUAL=vim
 
 echo "default_linemode devicons" >> $HOME/.config/ranger/rc.conf
 
+# History
+
+HISTSIZE=5000
+HISTFILE=~/.zsh_history
+SAVEHIST=$HISTSIZE
+setopt appendhistory
+setopt sharehistory
+
 # Prompts
 
 prompt_new_line=$'\n\n'
@@ -55,6 +63,10 @@ prompt_end=$'\n'
 
 PROMPT="${prompt_end}%F{cyan}%f%S%F{cyan}Aurorathy%f%s%F{cyan}%f %F{blue}%1~%f ${prompt_new_line}%F{cyan}> %f"
 RPROMPT=""
+
+# Zsh-Autopair
+
+source /opt/homebrew/share/zsh-autopair/autopair.zsh
 
 # Zsh-Autocompletes
 
