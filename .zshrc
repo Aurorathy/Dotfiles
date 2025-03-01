@@ -26,8 +26,9 @@ zstyle ':completion:*' matcher-list 'm:{a-z}={A-Za-z}'
 
 # Aliases
 
+alias "tmux"="tmux -2"
 alias "cal"="calcurse"
-alias "ls"="ls -lah"
+alias "ls"="ls -lah --color"
 alias "ll"="ranger"
 alias "cat"="bat"
 alias "vi"="vim"
@@ -37,6 +38,7 @@ alias "cmatrix"="cmatrix -bm -C blue"
 
 # Environment Variables
 
+export TERM=xterm-256color
 export DISPLAY=:0
 export BAT_THEME="Nord"
 export EDITOR=vim

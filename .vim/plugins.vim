@@ -7,8 +7,6 @@
 :Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 :Plug 'junegunn/fzf.vim'
 
-:Plug 'junegunn/goyo.vim'
-
 :Plug 'vim-airline/vim-airline'
 :Plug 'vim-airline/vim-airline-themes'
 

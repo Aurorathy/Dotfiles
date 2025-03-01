@@ -26,6 +26,10 @@
 :let g:airline_right_sep=''
 :let g:airline_statusline_ontop=0
 
+if &term =~ '256color'
+  set t_ut=
+endif
+
 " Coc.nvim
 
 :set pumheight=10
@@ -42,11 +46,3 @@ if has('nvim-0.4.0') || has('patch-8.2.0750')
   vnoremap <silent><nowait<<expr> <C-b> coc#float#has_scroll() ? coc#float#scroll(0) : "\<C-b>"
 endif
 
-
-" Goyo
-
-function! s:goyo_enter()
-  set relativenumber
-endfunction
-
-autocmd! User GoyoEnter nested call <SID>goyo_enter()
