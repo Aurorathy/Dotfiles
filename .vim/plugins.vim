@@ -18,7 +18,3 @@
 
 :call plug#end()
 
-
-
-
-
