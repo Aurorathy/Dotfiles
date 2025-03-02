@@ -1,0 +1,21 @@
+[manager]
+
+ratio = [ 1, 4, 3 ]
+show_hidden = true
+sort_sensitive = true
+sort_dir_first = true
+linemode = "size"
+show_symlink = false
+mouse_events = [ "click", "scroll", "touch", "move", "drag" ]
+
+[preview]
+
+tab_size = 2
+
+[opener]
+
+edit = [
+  { run = '${EDITOR:-vi} "$@"', desc = "$EDITOR", block = true, for = "unix" },
+]
+
+

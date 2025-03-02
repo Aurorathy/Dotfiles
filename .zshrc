@@ -7,29 +7,29 @@ export NVM_DIR="$([ -z "${XDG_CONFIG_HOME-}" ] && printf %s "${HOME}/.nvm" || pr
 
 eval $(/opt/homebrew/bin/brew shellenv)
 
-# Functions
-
-function ranger() {
-  local tempfile="$(mktemp)"
-  command ranger --cmd="map Q chain shell echo %d > $tempfile; quitall"
-  if [[ -f "$tempfile" ]]; then
-    cd "$(cat "$tempfile")" || return
-  fi
-
-  rm -f "$tempfile"
-}
 
 # Completions
 eval "$(fzf --zsh)"
 
 zstyle ':completion:*' matcher-list 'm:{a-z}={A-Za-z}'
 
+# Yazi
+
+function y() {
+  local tmp="$(mktemp -t "yazi-cwd.XXXXXX")" cwd
+  yazi "$@" --cwd-file="$tmp"
+  if cwd="$(command cat -- "$tmp")" && [ -n "$cwd" ] && [ "$cwd" != "$PWD" ]; then
+    builtin cd -- "$cwd"
+  fi
+  rm -f -- "$tmp"
+}
+
 # Aliases
 
 alias "tmux"="tmux -2"
 alias "cal"="calcurse"
 alias "ls"="ls -lah --color"
-alias "ll"="ranger"
+alias "ll"="y"
 alias "cat"="bat"
 alias "vi"="vim"
 alias "tree"="tree -aC"
@@ -43,10 +43,6 @@ export DISPLAY=:0
 export BAT_THEME="Nord"
 export EDITOR=vim
 export VISUAL=vim
-
-# Ranger
-
-echo "default_linemode devicons" >> $HOME/.config/ranger/rc.conf
 
 # History
 

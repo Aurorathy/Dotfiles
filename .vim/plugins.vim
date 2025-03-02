@@ -16,5 +16,8 @@
 
 :Plug 'ryanoasis/vim-devicons'
 
+:Plug 'preservim/nerdtree'
+:Plug 'tiagofumo/vim-nerdtree-syntax-highlight'
+
 :call plug#end()
 
