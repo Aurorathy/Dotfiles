@@ -35,6 +35,7 @@ alias "vi"="vim"
 alias "tree"="tree -aC"
 alias "clock"="tty-clock -c -C 4"
 alias "cmatrix"="cmatrix -bm -C blue"
+alias "glow"="glow -tal -s /Users/aurorathy/Library/Preferences/glow/nord.json"
 
 # Environment Variables
 
@@ -43,6 +44,7 @@ export DISPLAY=:0
 export BAT_THEME="Nord"
 export EDITOR=vim
 export VISUAL=vim
+
 
 # History
 

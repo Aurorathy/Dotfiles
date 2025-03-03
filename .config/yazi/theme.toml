@@ -128,7 +128,7 @@ icon_error = ""
 
 rules = [
  
-#Images
+# Images
   { mime = "image/*", fg = "#5e81ac" },
 
 # Media 
