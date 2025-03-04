@@ -1,25 +1,25 @@
 {
   "suggest.floatConfig": {
     "border": true,
-    "rounded": true,
+    "rounded": false,
     "highlight": "CocFloating",
     "maxWidth": 40
   },
   "diagnostic.floatConfig": {
     "border": true,
-    "rounded": true,
+    "rounded": false,
     "highlight": "CocFloating",
     "maxWidth": 40
   },
   "signature.floatConfig": {
     "border": true,
-    "rounded": true,
+    "rounded": false,
     "highlight": "CocFloating",
     "maxWidth": 40
   },
   "hover.floatConfig": {
     "border": true,
-    "rounded": true,
+    "rounded": false,
     "highlight": "CocFloating",
     "maxWidth": 40  
   }

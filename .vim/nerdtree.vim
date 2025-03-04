@@ -6,7 +6,7 @@ autocmd BufEnter * if  tabpagenr('$') == 1 && winnr('$') == 1 && exists('b:NERDT
 
 " Parameters
 
-:let g:NERDTreeMiniamlUI=1
+:let g:NERDTreeMinimalUI=1
 :let g:NERDTreeDirArrowExpandable=''
 :let g:NERDTreeDirArrowCollapsible=''
 :let g:NERDTreeFileLines=1

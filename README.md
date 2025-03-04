@@ -26,6 +26,7 @@ git clone https://github.com/Aurorathy/Dotfiles.git
   - [vim-airline](https://github.com/vim-airline/vim-airline): Status bar.
   - [vim-devicons](https://github.com/ryanoasis/vim-devicons): Devicons support.
   - [vimtex](https://github.com/lervag/vimtex): LaTeX preview. 
+  - [tagbar](https://github.com/preservim/tagbar): Browse the tags of the file.
 
 - tmux
   - [tmux-battery](https://github.com/tmux-plugins/tmux-battery): Display battery status.

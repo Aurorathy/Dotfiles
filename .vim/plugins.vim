@@ -19,5 +19,7 @@
 :Plug 'preservim/nerdtree'
 :Plug 'tiagofumo/vim-nerdtree-syntax-highlight'
 
+:Plug 'preservim/tagbar'
+
 :call plug#end()
 
