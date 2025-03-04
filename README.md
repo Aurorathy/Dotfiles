@@ -19,16 +19,19 @@ git clone https://github.com/Aurorathy/Dotfiles.git
 
 # What's in it?
 
-- ## Vim
-  - ![](~/Dotfiles/assets/vim/vim_screenshot00)
-  - ![](~/Dotfiles/assets/vim/vim_screenshot01)
-  - [fzf](https://github.com/junegunn/fzf.vim?tab=readme-ov-file): Command-line fuzzy finder.
-  - [Coc.nvim](https://github.com/neoclide/coc.nvim): Autocompletion.
-  - [NERDTree](https://github.com/preservim/nerdtree): File system explorer.
-  - [vim-airline](https://github.com/vim-airline/vim-airline): Status bar.
-  - [vim-devicons](https://github.com/ryanoasis/vim-devicons): Devicons support.
-  - [vimtex](https://github.com/lervag/vimtex): LaTeX preview. 
-  - [tagbar](https://github.com/preservim/tagbar): Browse the tags of the file.
+## Vim
+
+![](~/Dotfiles/assets/vim/vim_screenshot00)
+![](~/Dotfiles/assets/vim/vim_screenshot01)
+
+- [fzf](https://github.com/junegunn/fzf.vim?tab=readme-ov-file): Command-line fuzzy finder.
+- [Coc.nvim](https://github.com/neoclide/coc.nvim): Autocompletion.
+- [NERDTree](https://github.com/preservim/nerdtree): File system explorer.
+- [vim-airline](https://github.com/vim-airline/vim-airline): Status bar.
+- [vim-devicons](https://github.com/ryanoasis/vim-devicons): Devicons support.
+- [vimtex](https://github.com/lervag/vimtex): LaTeX preview. 
+- [tagbar](https://github.com/preservim/tagbar): Browse the tags of the file.
+
 - ## tmux
   - [tmux-battery](https://github.com/tmux-plugins/tmux-battery): Display battery status.
   - [tmux-cmus-status](https://github.com/JenGoldstrich/tmux-cmus-status): Show current songs/artists.
