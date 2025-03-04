@@ -58,9 +58,10 @@ stow --adopt .
   - [tmux-cmus-status](https://github.com/JenGoldstrich/tmux-cmus-status): Show current songs/artists.
 
 ### zsh
-  - [zsh-autopair](https://github.com/hlissner/zsh-autopair) 
+  - [fzf](https://github.com/junegunn/fzf): Command-line fuzzy finder.
+  - [zsh-autopair](https://github.com/hlissner/zsh-autopair): Auto brackets. 
   - [zsh-autocomplete](https://github.com/marlonrichert/zsh-autocomplete)
-  - [zsh-autosuggestions](https://github.com/zsh-users/zsh-autosuggestions)
+  - [zsh-autosuggestions](https://github.com/zsh-users/zsh-autosuggestions): Suggest commands based on history/completions.
 
 ### Aerospace
   - Tiling window manager.
