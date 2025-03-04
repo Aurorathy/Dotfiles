@@ -21,8 +21,8 @@ git clone https://github.com/Aurorathy/Dotfiles.git
 
 ## Vim
 
-![](~/Dotfiles/assets/vim/vim_screenshot00)
-![](~/Dotfiles/assets/vim/vim_screenshot01)
+![](~/Dotfiles/assets/vim/vim_screenshot00.png)
+![](~/Dotfiles/assets/vim/vim_screenshot01.png)
 
 - [fzf](https://github.com/junegunn/fzf.vim?tab=readme-ov-file): Command-line fuzzy finder.
 - [Coc.nvim](https://github.com/neoclide/coc.nvim): Autocompletion.
