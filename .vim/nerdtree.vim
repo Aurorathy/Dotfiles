@@ -2,6 +2,8 @@
 
 :nmap <C-n> :NERDTreeToggle<CR>
 
+autocmd BufEnter * if  tabpagenr('$') == 1 && winnr('$') == 1 && exists('b:NERDTree') && b:NERDTree.isTabTree() | call feedkeys(":quit\<CR>:\<BS>") | endif
+
 " Parameters
 
 :let g:NERDTreeMiniamlUI=1
