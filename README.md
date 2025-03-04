@@ -20,6 +20,19 @@ git clone https://github.com/Aurorathy/Dotfiles.git
 # What's in it?
 
 - Vim
+
+- ## Files structure
+
+```txt
+.
+├── coc-settings.json
+├── nerdtree.vim     // NERDTree settings
+├── plugins.vim      // Plugins install
+├── settings.vim     // colorscheme/autopair/Coc autocompletion
+├── tags.vim         // tagbar settings
+└── vimrc            // Basic Vim settings
+```
+
   - [fzf](https://github.com/junegunn/fzf.vim?tab=readme-ov-file): Command-line fuzzy finder.
   - [Coc.nvim](https://github.com/neoclide/coc.nvim): Autocompletion.
   - [NERDTree](https://github.com/preservim/nerdtree): File system explorer.
@@ -44,4 +57,7 @@ git clone https://github.com/Aurorathy/Dotfiles.git
   - GPU-accelerated terminal emulator.
 
 - cmus
-  - Console music player
+  - Console music player.
+
+- zathura
+  - Document viewer.
