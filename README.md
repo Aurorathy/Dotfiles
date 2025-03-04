@@ -19,20 +19,9 @@ git clone https://github.com/Aurorathy/Dotfiles.git
 
 # What's in it?
 
-- Vim
-
-- ## Files structure
-
-```txt
-.
-├── coc-settings.json
-├── nerdtree.vim     // NERDTree settings
-├── plugins.vim      // Plugins install
-├── settings.vim     // colorscheme/autopair/Coc autocompletion
-├── tags.vim         // tagbar settings
-└── vimrc            // Basic Vim settings
-```
-
+- ## Vim
+  - ![](~/Dotfiles/assets/vim/vim_screenshot00)
+  - ![](~/Dotfiles/assets/vim/vim_screenshot01)
   - [fzf](https://github.com/junegunn/fzf.vim?tab=readme-ov-file): Command-line fuzzy finder.
   - [Coc.nvim](https://github.com/neoclide/coc.nvim): Autocompletion.
   - [NERDTree](https://github.com/preservim/nerdtree): File system explorer.
@@ -40,24 +29,23 @@ git clone https://github.com/Aurorathy/Dotfiles.git
   - [vim-devicons](https://github.com/ryanoasis/vim-devicons): Devicons support.
   - [vimtex](https://github.com/lervag/vimtex): LaTeX preview. 
   - [tagbar](https://github.com/preservim/tagbar): Browse the tags of the file.
-
-- tmux
+- ## tmux
   - [tmux-battery](https://github.com/tmux-plugins/tmux-battery): Display battery status.
   - [tmux-cmus-status](https://github.com/JenGoldstrich/tmux-cmus-status): Show current songs/artists.
 
-- zsh
+- ## zsh
   - [zsh-autopair](https://github.com/hlissner/zsh-autopair) 
   - [zsh-autocomplete](https://github.com/marlonrichert/zsh-autocomplete)
   - [zsh-autosuggestions](https://github.com/zsh-users/zsh-autosuggestions)
 
-- Aerospace
+- ## Aerospace
   - Tiling window manager.
 
-- Alacritty
+- ## Alacritty
   - GPU-accelerated terminal emulator.
 
-- cmus
+- ## cmus
   - Console music player.
 
-- zathura
+- ## zathura
   - Document viewer.
