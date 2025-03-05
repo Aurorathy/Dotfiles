@@ -14,7 +14,7 @@ padding = { x = 10, y = 10 }
 dynamic_padding = true
 decorations = "None"
 blur = false
-opacity = 0.875
+opacity = 1
 
 [font]
 

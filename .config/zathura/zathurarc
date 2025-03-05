@@ -27,7 +27,7 @@ set statusbar-fg "#E5E9F0"
 
 set highlight-color "rgba(94, 129, 172, 0.5)"
 
-set default-bg "rgba(46, 52, 64, 0.95)"
+set default-bg "rgba(46, 52, 64, 1)"
 set default-fg "#D8DEE9"
 set render-loading "true"
 set render-loading-bg "#2E3440"
