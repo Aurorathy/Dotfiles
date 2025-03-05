@@ -22,7 +22,7 @@ git clone https://github.com/Aurorathy/Dotfiles.git
 
 ## Dotfiles Management
 
-The dotfiles uses [GNU Stow](https://github.com/aspiers/stow) to manage dotfiles.
+The dotfiles are managed using [GNU Stow](https://github.com/aspiers/stow). To set them up:
 
 1. Install GNU Stow
 
@@ -30,9 +30,9 @@ The dotfiles uses [GNU Stow](https://github.com/aspiers/stow) to manage dotfiles
 brew install stow
 ```
 
-2. Copy the dotfiles to `~/.config` or `~/.vim`.
+2. **Copy the dotfiles** to `~/.config` or `~/.vim`.
 
-3. Link the dotfiles in `Dotfiles` directory.
+3. **Link the dotfiles** in the `Dotfiles` directory.
 
 ```sh
 stow --adopt .
