@@ -54,30 +54,36 @@ stow --adopt .
 - [tagbar](https://github.com/preservim/tagbar): Browse the tags of the file.
 
 ### tmux
-  - [tmux-battery](https://github.com/tmux-plugins/tmux-battery): Display battery status.
-  - [tmux-cmus-status](https://github.com/JenGoldstrich/tmux-cmus-status): Show current songs/artists.
+
+- [tmux-battery](https://github.com/tmux-plugins/tmux-battery): Display battery status.
+- [tmux-cmus-status](https://github.com/JenGoldstrich/tmux-cmus-status): Show current songs/artists.
 
 ### zsh
-  - [fzf](https://github.com/junegunn/fzf): Command-line fuzzy finder.
-  - [zsh-autopair](https://github.com/hlissner/zsh-autopair): Auto brackets. 
-  - [zsh-autocomplete](https://github.com/marlonrichert/zsh-autocomplete)
-  - [zsh-autosuggestions](https://github.com/zsh-users/zsh-autosuggestions): Suggest commands based on history/completions.
+- [fzf](https://github.com/junegunn/fzf): Command-line fuzzy finder.
+- [zsh-autopair](https://github.com/hlissner/zsh-autopair): Auto brackets. 
+- [zsh-autocomplete](https://github.com/marlonrichert/zsh-autocomplete)
+- [zsh-autosuggestions](https://github.com/zsh-users/zsh-autosuggestions): Suggest commands based on history/completions.
 
 ### Aerospace
-  - Tiling window manager.
+
+- Tiling window manager.
 
 ### Alacritty
-  - GPU-accelerated terminal emulator.
+
+- GPU-accelerated terminal emulator.
 
 ### cmus
-  - Console music player.
+
+- Console music player.
 
 ### zathura
-  - Document viewer.
+
+- Document viewer.
 
 ### Others
-  - [fastfetch](https://github.com/fastfetch-cli/fastfetch): Fetching system information and display.
-  - [bat](https://github.com/sharkdp/bat): `cat` command with syntax highlighting.
-  - [yazi](https://github.com/sxyazi/yazi): Terminal file manager.
-  - [cmatrix](https://github.com/abishekvashok/cmatrix): Screensaver.
-  - [calcurse](https://github.com/lfos/calcurse): Text-based calendar.
+
+- [fastfetch](https://github.com/fastfetch-cli/fastfetch): Fetching system information and display.
+- [bat](https://github.com/sharkdp/bat): `cat` command with syntax highlighting.
+- [yazi](https://github.com/sxyazi/yazi): Terminal file manager.
+- [cmatrix](https://github.com/abishekvashok/cmatrix): Screensaver.
+- [calcurse](https://github.com/lfos/calcurse): Text-based calendar.
