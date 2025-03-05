@@ -26,6 +26,7 @@ function y() {
 
 # Aliases
 
+alias "sorafetch"="fastfetch"
 alias "tmux"="tmux -2"
 alias "cal"="calcurse"
 alias "ls"="ls -lah --color"

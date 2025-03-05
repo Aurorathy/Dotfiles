@@ -74,3 +74,10 @@ stow --adopt .
 
 ### zathura
   - Document viewer.
+
+### Others
+  - [fastfetch](https://github.com/fastfetch-cli/fastfetch): Fetching system information and display.
+  - [bat](https://github.com/sharkdp/bat): `cat` command with syntax highlighting.
+  - [yazi](https://github.com/sxyazi/yazi): Terminal file manager.
+  - [cmatrix](https://github.com/abishekvashok/cmatrix): Screensaver.
+  - [calcurse](https://github.com/lfos/calcurse): Text-based calendar.
