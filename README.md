@@ -4,6 +4,8 @@
 
 A collection of dotfiles for a customized development environment on macOS.
 
+![](https://raw.githubusercontent.com/Aurorathy/Dotfiles/refs/heads/main/assets/home.png)
+
 ## Quick Start
 
 To install the dotfiles:
@@ -55,10 +57,13 @@ stow --adopt .
 
 ### tmux
 
+![](https://raw.githubusercontent.com/Aurorathy/Dotfiles/refs/heads/main/assets/tmux/tmux.png)
+
 - [tmux-battery](https://github.com/tmux-plugins/tmux-battery): Display battery status.
 - [tmux-cmus-status](https://github.com/JenGoldstrich/tmux-cmus-status): Show current songs/artists.
 
 ### zsh
+
 - [fzf](https://github.com/junegunn/fzf): Command-line fuzzy finder.
 - [zsh-autopair](https://github.com/hlissner/zsh-autopair): Auto brackets. 
 - [zsh-autocomplete](https://github.com/marlonrichert/zsh-autocomplete)
