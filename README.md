@@ -25,7 +25,6 @@ brew install stow
 
 2. Copy `.config`, `.vim`, and `.zshrc` to home page
 
-
 3. Use `stow` command to link the files: 
 
 ```sh
@@ -43,4 +42,26 @@ stow --adapt .
 
 ### Vim
 
+![](https://raw.githubusercontent.com/Aurorathy/Dotfiles/refs/heads/main/assets/vim/vim_screenshot00.png)
+![](https://raw.githubusercontent.com/Aurorathy/Dotfiles/refs/heads/main/assets/vim/vim_screenshot01.png)
 
+- [NERDTree](https://github.com/preservim/nerdtree): Tree explorer.
+- [tagbar](https://github.com/preservim/tagbar): File structure overview.
+- [coc.nvim](https://github.com/neoclide/coc.nvim/): Autocompletion.
+- [vimtex](https://github.com/lervag/vimtex):  $\LaTeX$ preview in Vim.
+- [fzf](https://github.com/junegunn/fzf.vim): Fuzzy finder in Vim.
+
+### tmux
+
+![](https://raw.githubusercontent.com/Aurorathy/Dotfiles/refs/heads/main/assets/tmux/tmux.png)
+
+- [tmux-cmus-status](): Display cmus status in tmux.
+- [tmux-battery](): Display battery status in tmux.
+
+## Others
+
+- [Aerospace](https://github.com/nikitabobko/AeroSpace): i3-like tiling window manager.
+
+- [Alacritty](https://github.com/alacritty/alacritty): GPU-Accelerated Terminal Emulator.
+
+- [cmus](https://github.com/cmus/cmus): Console music player.
