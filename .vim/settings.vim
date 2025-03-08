@@ -15,7 +15,9 @@
 :let g:markdown_recommended_style=0
 :let g:vimtex_compiler_method='latexmk'
 :let g:vimtex_view_method='zathura'
-
+:let g:mkdp_auto_start=1
+:let g:mkdp_theme='dark'
+:let g:mkdp_markdown_css='/Users/aurorathy/.vim/theme/github-markdown-css/github-markdown-dark.css'
 
 " Themes
 
