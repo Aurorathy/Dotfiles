@@ -17,7 +17,9 @@
 :let g:vimtex_view_method='zathura'
 :let g:mkdp_auto_start=1
 :let g:mkdp_theme='dark'
-:let g:mkdp_markdown_css='/Users/aurorathy/.vim/theme/github-markdown-css/github-markdown-dark.css'
+:let g:mkdp_markdown_css='/Users/aurorathy/.vim/theme/github-markdown-css/github-markdown.css'
+:let g:mkdp_highlight_css='/Users/aurorathy/.vim/theme/github-markdown-css/github-markdown.css'
+:let g:mkdp_browser='/Applications/Google Chrome.app'
 
 " Themes
 
