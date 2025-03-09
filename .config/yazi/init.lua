@@ -4,6 +4,14 @@ require("full-border"):setup {
 
 require("git"):setup()
 
+-- Show username/hostname in header
+Header:children_add(function()
+  if ya.target_family() ~= "unix" then
+    return ""
+  end
+  return ui.Span(ya.user_name() .. "@" .. ya.host_name() .. ":"):fg("#5e81ac")
+end, 500, Header.LEFT)
+
 -- Symlinks in status bar
 Status:children_add(function(self)
   local h = self._current.hovered
