@@ -11,5 +11,5 @@ alias "tree"="tree -aC"
 alias "clock"="tty-clock -c -C 4"
 alias "cmatrix"="cmatrix"
 alias "glow"="glow -tal -s /Users/aurorathy/Library/Preferences/glow/nord.json"
-
-
+alias "grep"="grep --color=auto"
+alias "jp2a"="jp2a --colors"

@@ -39,7 +39,7 @@ set color_win_cur=13
 # inactive selection for currently playing track
 
 set color_win_inactive_cur_sel_bg=default
-set color_win_inactive_cur_sel_fg=13
+set color_win_inactive_cur_sel_fg=3
 
 # active selection
 
