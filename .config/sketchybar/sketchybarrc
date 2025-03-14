@@ -1,0 +1,53 @@
+PLUGIN_DIR="$CONFIG_DIR/plugins"
+
+sketchybar --bar position=bottom height=25 color=0xff3b4252 y_offset=1 corner_radius=0 padding_left=5 padding_right=5
+
+default=(
+  padding_left=10
+  padding_right=10
+  icon.font="JetBrainsMonoNL Nerd Font:Regular:17.5"
+  label.font="JetBrainsMonoNL Nerd Font:Regular:15.0"
+  icon.color=0xffd8dee9
+  label.color=0xffd8dee9
+  icon.padding_left=10
+  icon.padding_right=10
+  label.padding_left=10
+  label.padding_right=10
+  border_width=1.5
+  border_color=0xff3b4252
+)
+
+sketchybar --default "${default[@]}"
+
+SPACE_ICONS=("1" "2" "3" "4" "5")
+for i in "${!SPACE_ICONS[@]}"
+do
+  sid="$(($i+1))"
+  space=(
+    space="$sid"
+    icon="${SPACE_ICONS[i]}"
+    icon.padding_left=10
+    icon.padding_right=10
+    background.color=0xff2e3440
+    background.corner_radius=5
+    background.height=25
+    label.drawing=off 
+    script="$PLUGIN_DIR/space.sh"
+    click_script="yabai -m space --focus $sid"
+  )
+  skechybar --add space."sid" left --set space."$sid" "${space[@]}"
+done
+
+sketchybar --add item clock left \
+           --set clock background.color=0xff88c0d0 background.corner_radius=5 label.color=0xff3b4252 icon.color=0xff3b4252 \
+           --set clock update_freq=10 icon=󰥔 script="$PLUGIN_DIR/clock.sh" \
+           --add item volume right \
+           --set volume background.color=0xffa3be8c background.corner_radius=5 label.color=0xff3b4252 icon.color=0xff3b4252 \
+           --set volume script="$PLUGIN_DIR/volume.sh" \
+           --subscribe volume volume_change \
+           --add item battery right \
+           --set battery background.color=0xffebcb8b background.corner_radius=5 label.color=0xff3b4252 icon.color=0xff3b4252 \
+           --set battery update_freq=144 script="$PLUGIN_DIR/battery.sh" \
+           --subscribe battery system_woke power_source_change
+
+sketchybar --update
