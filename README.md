@@ -1,4 +1,9 @@
-# Polar
+<div>
+  <h1 align=center style="color:#88C0D0"> 
+    <em> Polar </em> 
+  </h1>
+</div>
+
 
 ![](https://raw.githubusercontent.com/Aurorathy/Dotfiles/refs/heads/main/assets/home.png)
 
