@@ -1,5 +1,5 @@
 <div>
-  <h1 align=center style="color:#88C0D0"> 
+  <h1 align=center> 
     <em> Polar </em> 
   </h1>
 </div>
