@@ -1,7 +1,7 @@
 # Polar
 
-![](~/Dotfiles/assets/home.png)
-![](~/Dotfiles/assets/vim/vim.png)
+![](https://raw.githubusercontent.com/Aurorathy/Dotfiles/refs/heads/main/assets/home.png)
+
 
 ## Information
 
