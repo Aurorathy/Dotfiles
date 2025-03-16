@@ -1,10 +1,25 @@
-# Dotfiles
+# Polar
 
-A collection of dotfiles for a customized development environment for macOS system.
+![](~/Dotfiles/assets/home.png)
+![](~/Dotfiles/assets/vim/vim.png)
 
-![](https://raw.githubusercontent.com/Aurorathy/Dotfiles/refs/heads/main/assets/home.png)
+## Information
+
+- OS: macOS Ventura
+- WM: [Aerospace](https://github.com/nikitabobko/AeroSpace)
+- Bar: [Sketchybar](https://github.com/FelixKratz/SketchyBar)
+- Terminal: [Alacritty](https://github.com/alacritty/)
+- Shell: Zsh
+- Editor: Vim
+- Colorscheme: [Nord](https://www.nordtheme.com/)
 
 ## Installation
+
+Warning: **Don't use my settings blindly unless you know what you're doing.**
+
+### Requirements
+
+- Xcode Command Line Tools (CLT)
 
 ### Quick Start
 
@@ -12,56 +27,29 @@ A collection of dotfiles for a customized development environment for macOS syst
 git clone https://github.com/Aurorathy/Dotfiles.git
 ```
 
-This dotfiles is maintained by using [GNU Stow](https://www.gnu.org/software/stow/).
+### Management
 
-### Dotfiles Management
+Polar is maintained by using [GNU Stow]()
 
-1. Install `stow`: 
-
-```sh
-# macOS
-brew install stow 
-```
-
-2. Copy `.config`, `.vim`, and `.zshrc` to home page
-
-3. Use `stow` command to link the files: 
+1. Install `stow`.
 
 ```sh
-stow --adapt .
+brew install stow // macOS
 ```
 
-### Package Manager
+2. Copy `.config`, `.vim`, and `.zshrc` to the home directory.
 
-- [Homebrew](https://brew.sh/): macOS default plugin manager.
-- [vim-plug](https://github.com/junegunn/vim-plug): Vim plugin manager.
-- [tpm](https://github.com/tmux-plugins/tpm): tmux plugin manager.
-- [ya](https://github.com/yazi-rs/plugins): yazi plugin manager.
+3. Use the `stow` command to create symbolic links for the files.
 
-## What's in it?
+```sh
+// ~/Dotfiles
+stow --adopt .
+```
 
-### Vim
+### Package (Plugin) Managers
 
-![](https://raw.githubusercontent.com/Aurorathy/Dotfiles/refs/heads/main/assets/vim/vim_screenshot00.png)
-![](https://raw.githubusercontent.com/Aurorathy/Dotfiles/refs/heads/main/assets/vim/vim_screenshot01.png)
+- [Homebrew](https://brew.sh/)
+- [vim-plug](https://github.com/junegunn/vim-plug)
+- [tpm](https://github.com/tmux-plugins/tpm)
+- [ya](https://github.com/yazi-rs/plugins)
 
-- [NERDTree](https://github.com/preservim/nerdtree): Tree explorer.
-- [tagbar](https://github.com/preservim/tagbar): File structure overview.
-- [coc.nvim](https://github.com/neoclide/coc.nvim/): Autocompletion.
-- [vimtex](https://github.com/lervag/vimtex):  $\LaTeX$ preview in Vim.
-- [fzf](https://github.com/junegunn/fzf.vim): Fuzzy finder in Vim.
-
-### tmux
-
-![](https://raw.githubusercontent.com/Aurorathy/Dotfiles/refs/heads/main/assets/tmux/tmux.png)
-
-- [tmux-cmus-status](): Display cmus status in tmux.
-- [tmux-battery](): Display battery status in tmux.
-
-## Others
-
-- [Aerospace](https://github.com/nikitabobko/AeroSpace): i3-like tiling window manager.
-
-- [Alacritty](https://github.com/alacritty/alacritty): GPU-Accelerated Terminal Emulator.
-
-- [cmus](https://github.com/cmus/cmus): Console music player.
